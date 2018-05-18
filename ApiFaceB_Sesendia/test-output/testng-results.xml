@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7326" started-at="2018-05-17T02:23:31Z" finished-at="2018-05-17T02:23:39Z">
+  <suite name="Default suite" duration-ms="7861" started-at="2018-05-18T01:27:31Z" finished-at="2018-05-18T01:27:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7326" started-at="2018-05-17T02:23:31Z" finished-at="2018-05-17T02:23:39Z">
-      <class name="br.com.sesendia.fb.TestNew">
-        <test-method status="PASS" signature="CT00_AutenticacaoToken()[pri:0, instance:br.com.sesendia.fb.TestNew@59fa1d9b]" name="CT00_AutenticacaoToken" duration-ms="2598" started-at="2018-05-17T02:23:31Z" finished-at="2018-05-17T02:23:34Z">
+    <test name="Default test" duration-ms="7861" started-at="2018-05-18T01:27:31Z" finished-at="2018-05-18T01:27:39Z">
+      <class name="br.com.sesendia.fb.TesteAPI">
+        <test-method status="PASS" signature="CT00_AutenticacaoToken_ClienteIDAusente()[pri:0, instance:br.com.sesendia.fb.TesteAPI@26be92ad]" name="CT00_AutenticacaoToken_ClienteIDAusente" duration-ms="2446" started-at="2018-05-18T01:27:31Z" finished-at="2018-05-18T01:27:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CT00_AutenticacaoToken -->
-        <test-method status="PASS" signature="CT01_Post()[pri:0, instance:br.com.sesendia.fb.TestNew@59fa1d9b]" name="CT01_Post" duration-ms="3636" started-at="2018-05-17T02:23:34Z" finished-at="2018-05-17T02:23:38Z">
+        </test-method> <!-- CT00_AutenticacaoToken_ClienteIDAusente -->
+        <test-method status="PASS" signature="CT01_AutenticacaoToken_ClienteSecretInvalido()[pri:0, instance:br.com.sesendia.fb.TesteAPI@26be92ad]" name="CT01_AutenticacaoToken_ClienteSecretInvalido" duration-ms="437" started-at="2018-05-18T01:27:33Z" finished-at="2018-05-18T01:27:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CT01_Post -->
-        <test-method status="PASS" signature="CT02_AlteracaoPost()[pri:0, instance:br.com.sesendia.fb.TestNew@59fa1d9b]" name="CT02_AlteracaoPost" duration-ms="1050" started-at="2018-05-17T02:23:38Z" finished-at="2018-05-17T02:23:39Z">
+        </test-method> <!-- CT01_AutenticacaoToken_ClienteSecretInvalido -->
+        <test-method status="PASS" signature="CT02_AutenticacaoToken_AgrantInvalido()[pri:0, instance:br.com.sesendia.fb.TesteAPI@26be92ad]" name="CT02_AutenticacaoToken_AgrantInvalido" duration-ms="388" started-at="2018-05-18T01:27:34Z" finished-at="2018-05-18T01:27:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CT02_AlteracaoPost -->
-      </class> <!-- br.com.sesendia.fb.TestNew -->
+        </test-method> <!-- CT02_AutenticacaoToken_AgrantInvalido -->
+        <test-method status="PASS" signature="CT03_AutenticacaoToken()[pri:0, instance:br.com.sesendia.fb.TesteAPI@26be92ad]" name="CT03_AutenticacaoToken" duration-ms="386" started-at="2018-05-18T01:27:34Z" finished-at="2018-05-18T01:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CT03_AutenticacaoToken -->
+        <test-method status="PASS" signature="CT04_Post()[pri:0, instance:br.com.sesendia.fb.TesteAPI@26be92ad]" name="CT04_Post" duration-ms="2677" started-at="2018-05-18T01:27:35Z" finished-at="2018-05-18T01:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CT04_Post -->
+        <test-method status="PASS" signature="CT05_PostDuplicado()[pri:0, instance:br.com.sesendia.fb.TesteAPI@26be92ad]" name="CT05_PostDuplicado" duration-ms="519" started-at="2018-05-18T01:27:37Z" finished-at="2018-05-18T01:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CT05_PostDuplicado -->
+        <test-method status="PASS" signature="CT06_AlteracaoPost()[pri:0, instance:br.com.sesendia.fb.TesteAPI@26be92ad]" name="CT06_AlteracaoPost" duration-ms="957" started-at="2018-05-18T01:27:38Z" finished-at="2018-05-18T01:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CT06_AlteracaoPost -->
+      </class> <!-- br.com.sesendia.fb.TesteAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
