@@ -92,17 +92,17 @@ public class TesteAPI {
 		json = (JSONObject) parser.parse(responseBody.getBody().asString());
 
 		URl = "/"+json.get("id")
-		+ "/accounts"
-		+ "?access_token=" + tokenFull_Temporal;
+			+ "/accounts"
+			+ "?access_token=" + tokenFull_Temporal;
 		responseBody = help.Request(Method.GET, this.baseURI, URl);
 		json = (JSONObject) parser.parse(responseBody.getBody().asString());
 		Iterator<?> j = help.getIteratorJson(json.get("data"));
 		json = (JSONObject) j.next();
 
 		URl = "/"+json.get("id")
-		+ "/feed"
-		+ "?message=Inclusão de Post Automatizando o FaceBook "+calendar.getTimeInMillis()
-		+ "&access_token=" + json.get("access_token").toString();
+			+ "/feed"
+			+ "?message=Inclusão de Post Automatizando o FaceBook "+calendar.getTimeInMillis()
+			+ "&access_token=" + json.get("access_token").toString();
 		responseBody = help.Request(Method.POST, this.baseURI, URl);
 		json = (JSONObject) parser.parse(responseBody.getBody().asString());
 		System.out.println("Response =>  " + responseBody.getBody().asString());
@@ -126,8 +126,8 @@ public class TesteAPI {
 			CT04_Post();
 		}
 		URl = "/"+json.get("id")
-		+ "?message=Alteração de Post Automatizando FaceBook"
-		+ "&access_token=" + tokenFull_Temporal;
+			+ "?message=Alteração de Post Automatizando FaceBook"
+			+ "&access_token=" + tokenFull_Temporal;
 		responseBody = help.Request(Method.POST, this.baseURI, URl);
 		System.out.println("Response =>  " + responseBody.getBody().asString());
 		JSONObject json = (JSONObject) parser.parse(responseBody.getBody().asString());
